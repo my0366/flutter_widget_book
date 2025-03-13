@@ -1,5 +1,5 @@
-import 'package:flutter_template/shared/data/local/session_storage.dart';
-import 'package:flutter_template/shared/utili/dev_log.dart';
+import 'package:flutter_widget_book/shared/data/local/session_storage.dart';
+import 'package:flutter_widget_book/shared/utili/dev_log.dart';
 import 'package:dio/dio.dart';
 
 class SessionInterceptor extends Interceptor {

@@ -1,4 +1,4 @@
-name: flutter_template
+name: flutter_widget_book
 description: "A new Flutter project."
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
@@ -37,10 +37,11 @@ dev_dependencies:
   json_serializable: ^6.8.0
   flutter_lints: ^5.0.0
 
-  build_runner:
+  build_runner: ^2.4.15
   riverpod_generator:
   custom_lint:
   riverpod_lint:
+  widgetbook_generator: ^3.10.0
 
 flutter:
   uses-material-design: true

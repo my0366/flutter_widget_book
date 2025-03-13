@@ -44,3 +44,45 @@ at:
 [WrapWithConsumer] 2025-03-12T13:03:52.434858 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:441:5)
 [WrapWithConsumer] 2025-03-12T13:03:52.434858 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:194:12)
 [WrapWithConsumer] 2025-03-12T13:03:52.434858
+[ConvertToStatelessBaseWidget] 2025-03-13T14:23:41.534741 Plugin ConvertToStatelessBaseWidget threw while analyzing /Users/ellen/IdeaProjects/my0364/flutter_widget_book/lib/widgets/button.dart:
+[ConvertToStatelessBaseWidget] 2025-03-13T14:23:41.534741 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[ConvertToStatelessBaseWidget] 2025-03-13T14:23:41.534741
+[ConvertToStatelessBaseWidget] 2025-03-13T14:23:41.534741 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:61:7)
+[ConvertToStatelessBaseWidget] 2025-03-13T14:23:41.534741 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:160:5)
+[ConvertToStatelessBaseWidget] 2025-03-13T14:23:41.534741 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:320:33)
+[ConvertToStatelessBaseWidget] 2025-03-13T14:23:41.534741 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:153:23)
+[ConvertToStatelessBaseWidget] 2025-03-13T14:23:41.534741 #4      ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:241:35)
+[ConvertToStatelessBaseWidget] 2025-03-13T14:23:41.534741 #5      new Future.<anonymous closure> (dart:async/future.dart:258:40)
+[ConvertToStatelessBaseWidget] 2025-03-13T14:23:41.534741 #6      _rootRun (dart:async/zone.dart:1406:47)
+[ConvertToStatelessBaseWidget] 2025-03-13T14:23:41.534741 #7      _CustomZone.run (dart:async/zone.dart:1317:19)
+[ConvertToStatelessBaseWidget] 2025-03-13T14:23:41.534741 #8      _CustomZone.runGuarded (dart:async/zone.dart:1225:7)
+[ConvertToStatelessBaseWidget] 2025-03-13T14:23:41.534741 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1265:23)
+[ConvertToStatelessBaseWidget] 2025-03-13T14:23:41.534741 #10     _rootRun (dart:async/zone.dart:1414:13)
+[ConvertToStatelessBaseWidget] 2025-03-13T14:23:41.534741 #11     _CustomZone.run (dart:async/zone.dart:1317:19)
+[ConvertToStatelessBaseWidget] 2025-03-13T14:23:41.534741 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1249:23)
+[ConvertToStatelessBaseWidget] 2025-03-13T14:23:41.534741 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[ConvertToStatelessBaseWidget] 2025-03-13T14:23:41.534741 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:398:19)
+[ConvertToStatelessBaseWidget] 2025-03-13T14:23:41.534741 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:429:5)
+[ConvertToStatelessBaseWidget] 2025-03-13T14:23:41.534741 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:184:12)
+[ConvertToStatelessBaseWidget] 2025-03-13T14:23:41.534741
+[ConvertToStatefulBaseWidget] 2025-03-13T14:23:41.538693 Plugin ConvertToStatefulBaseWidget threw while analyzing /Users/ellen/IdeaProjects/my0364/flutter_widget_book/lib/widgets/button.dart:
+[ConvertToStatefulBaseWidget] 2025-03-13T14:23:41.538693 InconsistentAnalysisException: Requested result might be inconsistent with previously returned results
+[ConvertToStatefulBaseWidget] 2025-03-13T14:23:41.538693
+[ConvertToStatefulBaseWidget] 2025-03-13T14:23:41.538693 #0      AnalysisSessionImpl.checkConsistency (package:analyzer/src/dart/analysis/session.dart:61:7)
+[ConvertToStatefulBaseWidget] 2025-03-13T14:23:41.538693 #1      AnalysisSessionImpl.getResolvedUnit (package:analyzer/src/dart/analysis/session.dart:160:5)
+[ConvertToStatefulBaseWidget] 2025-03-13T14:23:41.538693 #2      ChangeBuilderImpl._createDartFileEditBuilder (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:320:33)
+[ConvertToStatefulBaseWidget] 2025-03-13T14:23:41.538693 #3      ChangeBuilderImpl.addDartFileEdit (package:analyzer_plugin/src/utilities/change_builder/change_builder_core.dart:153:23)
+[ConvertToStatefulBaseWidget] 2025-03-13T14:23:41.538693 #4      ChangeBuilderImpl.addDartFileEdit.<anonymous closure> (package:custom_lint_core/src/change_reporter.dart:241:35)
+[ConvertToStatefulBaseWidget] 2025-03-13T14:23:41.538693 #5      new Future.<anonymous closure> (dart:async/future.dart:258:40)
+[ConvertToStatefulBaseWidget] 2025-03-13T14:23:41.538693 #6      _rootRun (dart:async/zone.dart:1406:47)
+[ConvertToStatefulBaseWidget] 2025-03-13T14:23:41.538693 #7      _CustomZone.run (dart:async/zone.dart:1317:19)
+[ConvertToStatefulBaseWidget] 2025-03-13T14:23:41.538693 #8      _CustomZone.runGuarded (dart:async/zone.dart:1225:7)
+[ConvertToStatefulBaseWidget] 2025-03-13T14:23:41.538693 #9      _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1265:23)
+[ConvertToStatefulBaseWidget] 2025-03-13T14:23:41.538693 #10     _rootRun (dart:async/zone.dart:1414:13)
+[ConvertToStatefulBaseWidget] 2025-03-13T14:23:41.538693 #11     _CustomZone.run (dart:async/zone.dart:1317:19)
+[ConvertToStatefulBaseWidget] 2025-03-13T14:23:41.538693 #12     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1249:23)
+[ConvertToStatefulBaseWidget] 2025-03-13T14:23:41.538693 #13     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+[ConvertToStatefulBaseWidget] 2025-03-13T14:23:41.538693 #14     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:398:19)
+[ConvertToStatefulBaseWidget] 2025-03-13T14:23:41.538693 #15     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:429:5)
+[ConvertToStatefulBaseWidget] 2025-03-13T14:23:41.538693 #16     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:184:12)
+[ConvertToStatefulBaseWidget] 2025-03-13T14:23:41.538693

@@ -1,4 +1,4 @@
-import 'package:flutter_template/pages/home/home_page.dart';
+import 'package:flutter_widget_book/pages/home/home_page.dart';
 import 'package:go_router/go_router.dart';
 
 final router = GoRouter(
